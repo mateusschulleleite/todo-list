@@ -1,0 +1,41 @@
+.tasks-completed {
+  margin-top: 20px;
+}
+
+.tasks-list-completed {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.tasks-list-completed li {
+  background-color: #fefffb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+  -moz-box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+  box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+}
+
+.tasks-list-completed-none {
+  text-decoration: none !important;
+}
+
+.tasks-list-completed li p {
+  width: fill;
+  margin-left: 5px;
+  font-size: 0.85rem;
+  text-decoration: line-through;
+}
+
+.tasks-list-completed li input {
+  width: 20px;
+  height: 20px;
+}
+
+.trash-image {
+  max-width: 20px;
+}

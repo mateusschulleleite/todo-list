@@ -1,0 +1,68 @@
+.container-box-add-profile {
+  background-color: rgba(209, 209, 209, 0.46);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+
+.box-add-profile {
+  background-color: #fefffb;
+  padding: 15px;
+  border-radius: 25px;
+  width: 90%;
+  box-sizing: border-box;
+  -webkit-box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+  -moz-box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+  box-shadow: 0px 0px 24px -1px rgba(209, 209, 209, 1);
+  text-align: center;
+  position: relative;
+  max-width: 400px;
+}
+
+.box-add-profile input {
+  padding: 7px 15px;
+  height: 60px;
+  font-size: 1.1rem;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 10px 0 10px;
+  border: none;
+  background-color: #f5f5f5;
+  border-radius: 20px;
+}
+
+.box-add-profile input:focus {
+  outline: none;
+}
+
+.alert-add-profile {
+  margin-bottom: 25px;
+  display: block;
+  opacity: 0;
+  font-weight: 200;
+  color: #f00;
+  font-size: 0.9rem;
+}
+
+.button-confirm {
+  background: #f9ea85;
+  font-size: 1.2rem;
+  padding: 15px 25px;
+  border-radius: 20px;
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translate(-50%);
+  transition: 300ms all;
+}
+
+.button-confirm:hover {
+  transition: 400ms all;
+  cursor: pointer;
+  padding: 17px 27px;
+}
